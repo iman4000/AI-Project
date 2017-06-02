@@ -72,7 +72,7 @@ int main()
 
 	const clock_t begin_time = clock(); // gets time
 	genetic.run(); // runs the genetic algorithm
-	cout << "\n\nTime for to run the genetic algorithm: " << float(clock () - begin_time) /  CLOCKS_PER_SEC << " seconds.\n"; // shows time in seconds
+        cout << "\n\nTime for to run the genetic algorithm: " << float(clock () - begin_time) /  CLOCKS_PER_SEC << " seconds.\n"; // shows time in seconds for user
 	
 	return 0;
 }
